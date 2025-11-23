@@ -1,0 +1,47 @@
+import { test } from '@playwright/test';
+
+test('Locators', async ({ page }) => {
+  await page.goto('https://testautomationpractice.blogspot.com/');
+  // await page.getByPlaceholder('Enter Name').fill('Sabari');
+  // await page.waitForTimeout(2000);
+  // await page.getByPlaceholder('Enter EMail').fill('1997muthalagar@gmail.com');
+  // await page.waitForTimeout(2000);
+  // await page.getByPlaceholder('Enter Phone').fill('8667344278');
+  // await page.waitForTimeout(2000);
+  // await page.locator('.form-control').nth(3).fill('Madurai');
+  // await page.waitForTimeout(2000);
+  // await page.locator('.form-check-label').nth(0).click(); // gender
+  // await page.locator('.form-check-label').nth(2).click();
+  // await page.waitForTimeout(3000);
+  // await page.locator('.form-check-label').nth(3).check();
+  // await page.waitForTimeout(3000);
+  // await page.locator('.form-check-label').nth(3).uncheck();
+  // await page.locator('#wednesday').setChecked(true);
+  // await page.waitForTimeout(3000);
+  // const country = await page.locator('#country');
+  // await country.selectOption('india');
+  // const color = await page.locator('#colors');
+  // await color.selectOption({ index: 0 });
+  // await page.waitForTimeout(3000);
+  // const animals = await page.locator('#animals');
+  // await animals.selectOption({ value: 'lion' });
+  // await page.waitForTimeout(3000);
+  // const date = await page.locator('.hasDatepicker').first();
+  // await date.selectOption({ value: '2024-01-01' });
+  // await date.click();
+  // await page.getByText('Next').click();
+  // await page.locator('.ui-state-default').nth(3).click();
+  // await page.waitForTimeout(2000);
+  // await page.locator('#txtDate').click();
+  // await page.getByText('Next').click();
+  // await page.locator('.ui-state-default').nth(32).click();
+  // await page.waitForTimeout(3000);
+  // const button = await page.getByText('Start Date');
+  // await button.click();
+  // await page.waitForTimeout(3000);
+  // await page.locator('#singleFileInput').setInputFiles('C:/Users/User/Downloads/Screenshot 2025-08-21 121046.png');
+  // await page.locator('#multipleFilesForm').setInputFiles(['C:/Users/User/Downloads/tele 12.png', 'C:/Users/User/Downloads/Screenshot 2025-08-11 190948.png']);
+  await page.screenshot({ path: 'C:/Users/User/Downloads/no.png', fullPage: true });
+  await page.screenshot({ path: 'C:/Users/User/Downloads/max.png' });
+  await page.getByPlaceholder('Enter Name').screenshot({ path: 'C:/Users/User/Downloads/yes.png' });
+});

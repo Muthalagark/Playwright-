@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","21479","adactin login","chromium","Fri Oct 10 17:28:05 IST 2025","passed","Fri Oct 10 17:28:26 IST 2025","","adactin.spec.js","",""
+"","16837","Automation","chromium","Fri Oct 10 17:27:13 IST 2025","failed","Fri Oct 10 17:27:29 IST 2025","","mg.spec.js","",""
+"","7528","Locators","chromium","Thu Oct 09 15:44:26 IST 2025","passed","Thu Oct 09 15:44:33 IST 2025","","automationtask.spec.js","",""
