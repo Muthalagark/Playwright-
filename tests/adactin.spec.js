@@ -1,3 +1,6 @@
+//Page Object Model
+
+
 import {test,expect} from "@playwright/test"
 import { LoginPage } from "../Pages/Login";
 import { Search } from "../Pages/Search";
